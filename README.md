@@ -1,0 +1,2 @@
+# ea-webprog1-beadando
+NJE-GAMF WEBPROGRAMOZÁS ELŐADÁS BEADANDÓ
