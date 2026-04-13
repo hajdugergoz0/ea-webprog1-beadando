@@ -1,0 +1,119 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HÁTTÉR */
+body {
+  background: linear-gradient(135deg, #dbeafe, #f8fafc);
+  min-height: 100vh;
+}
+
+/* KONTAINER */
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* CÍM */
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+/* INPUT + GOMB SOR */
+.form-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+/* INPUT */
+input {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  min-width: 260px;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+  outline: none;
+}
+
+/* GOMBOK */
+button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+
+button:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* MÁSODLAGOS */
+.secondary-btn {
+  background: #64748b;
+}
+
+.secondary-btn:hover {
+  background: #475569;
+}
+
+/* TÖRLÉS */
+.delete-btn {
+  background: #ef4444;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+/* LISTA */
+ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+/* LISTA ELEMEK */
+li {
+  background: #f1f5f9;
+  padding: 14px 18px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #e2e8f0;
+}
+
+/* GOMB CSOPORT */
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
